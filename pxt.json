@@ -8,7 +8,6 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "test.ts",
         "_locales/de/SI1151-strings.json",
         "_locales/de/SI1151-jsdoc-strings.json"
     ],
