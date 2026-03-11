@@ -328,8 +328,8 @@ namespace SI1151 {
 
     //% group="Sunlight sensor SI1151"
     //% block="init sunlight sensor"
-    export function initSunlight(): boolean {
-        return si1151.init();
+    export function initSunlight(): void {
+        si1151.init();
     }
 
     //% group="Sunlight sensor SI1151"
