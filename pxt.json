@@ -8,6 +8,9 @@
         "main.blocks",
         "main.ts",
         "README.md",
+        "icon.png",
+        "_locales/en/SunlightSensor-strings.json",
+        "_locales/en/SunlightSensor-jsdoc-strings.json"
 
     ],
     "testFiles": [
