@@ -15,7 +15,7 @@ enum SensorVersion {
     SI1151 = 1
 }
 
-//% color=#F7B731 icon="\uf185" block="Sunlight Sensor"
+//% color=#F7B731 icon="\uf185" block="Sonnenlichtsensor"
 namespace SunlightSensor {
 
     // Welcher Sensor wurde initialisiert?
