@@ -236,7 +236,7 @@ namespace SunlightSensor {
      * Sensorversion im Dropdown auswählen.
      */
     //% group="Sunlight Sensor"
-    //% block="init sunlight sensor %version"
+    //% block="Sunlight Sensor %version an A0 initialisieren"
     //% version.fieldEditor="gridpicker"
     export function initSunlight(version: SensorVersion): void {
         _activeSensor = version;
@@ -251,7 +251,7 @@ namespace SunlightSensor {
      * Sichtbares Licht auslesen.
      */
     //% group="Sunlight Sensor"
-    //% block="sichtbares Licht lesen"
+    //% block="Lichtstärke"
     export function getHalfWord_Visible(): number {
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x22);
@@ -264,7 +264,7 @@ namespace SunlightSensor {
      * Infrarotlicht auslesen.
      */
     //% group="Sunlight Sensor"
-    //% block="Infrarot lesen"
+    //% block="Infrarot"
     export function getHalfWordIR(): number {
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x24);
@@ -278,7 +278,7 @@ namespace SunlightSensor {
      * SI1145: direkter Hardware-Wert. SI1151: berechnet aus IR + Visible.
      */
     //% group="Sunlight Sensor"
-    //% block="UV-Index lesen"
+    //% block="UV-Index"
     export function getHalfWordUV(): number {
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x2C) / 100;
