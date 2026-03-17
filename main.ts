@@ -15,7 +15,7 @@ enum SensorVersion {
     SI1151 = 1
 }
 
-//% color=#444444 icon="\uf185" block="Sunlight Sensor"
+//% color=#F7B731 icon="\uf185" block="Sunlight Sensor"
 namespace SunlightSensor {
 
     // Welcher Sensor wurde initialisiert?
@@ -238,6 +238,7 @@ namespace SunlightSensor {
     //% group="Sunlight Sensor"
     //% block="Sunlight Sensor %version an A0 initialisieren"
     //% version.fieldEditor="gridpicker"
+    //% weight=100
     export function initSunlight(version: SensorVersion): void {
         _activeSensor = version;
         if (version === SensorVersion.SI1145) {
@@ -252,6 +253,7 @@ namespace SunlightSensor {
      */
     //% group="Sunlight Sensor"
     //% block="Lichtstärke"
+    //% weight=80
     export function getHalfWord_Visible(): number {
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x22);
@@ -265,6 +267,7 @@ namespace SunlightSensor {
      */
     //% group="Sunlight Sensor"
     //% block="Infrarot"
+    //% weight=70
     export function getHalfWordIR(): number {
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x24);
@@ -279,6 +282,7 @@ namespace SunlightSensor {
      */
     //% group="Sunlight Sensor"
     //% block="UV-Index"
+    //% weight=60
     export function getHalfWordUV(): number {
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x2C) / 100;
