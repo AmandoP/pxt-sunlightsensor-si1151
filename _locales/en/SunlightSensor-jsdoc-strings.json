@@ -1,5 +1,6 @@
 {
-	"SI1151.getHalfWordUV": "Reads the ultraviolet index",
-	"SI1151.getHalfWord_Visible": "Reads the light level",
-	"SI1151.getHalfWordIR": "Reads the infrared light intensity"
+    "SunlightSensor.initSunlight": "Initialises the Grove Sunlight Sensor via I2C.",
+    "SunlightSensor.getHalfWord_Visible": "Returns the current visible light reading.",
+    "SunlightSensor.getHalfWordIR": "Returns the current infrared reading.",
+    "SunlightSensor.getHalfWordUV": "Returns the calculated UV index (0–11+)."
 }
