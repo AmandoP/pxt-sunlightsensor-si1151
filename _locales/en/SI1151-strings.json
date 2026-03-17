@@ -1,0 +1,6 @@
+{
+	"SI1151.getHalfWordUV|block": "UV index",
+	"SI1151.getHalfWord_Visible|block": "light level",
+	"SI1151.getHalfWordIR|block": "IR intensity"
+}
+

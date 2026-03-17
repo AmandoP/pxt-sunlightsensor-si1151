@@ -8,8 +8,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "_locales/de/SI1151-strings.json",
-        "_locales/de/SI1151-jsdoc-strings.json"
+
     ],
     "testFiles": [
         "test.ts"
