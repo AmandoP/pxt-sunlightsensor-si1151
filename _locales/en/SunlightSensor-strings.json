@@ -1,7 +1,0 @@
-{
-  "SunlightSensor": "Sunlight Sensor",
-  "SunlightSensor.initSunlight|block": "initialise sunlight sensor %version at A0",
-  "SunlightSensor.getHalfWord_Visible|block": "light level",
-  "SunlightSensor.getHalfWordIR|block": "infrared light level",
-  "SunlightSensor.getHalfWordUV|block": "UV index"
-}
