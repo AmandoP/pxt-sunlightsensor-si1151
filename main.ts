@@ -232,8 +232,8 @@ namespace SunlightSensor {
     // ============================================================
 
     /**
-     * Sunlight Sensor initialisieren.
-     * Sensorversion im Dropdown auswählen.
+     * Initialise the Grove Sunlight Sensor.
+     * Select the sensor version from the dropdown.
      */
     //% group="Sunlight Sensor"
     //% block="initialise sunlight sensor %version at A0"
@@ -249,7 +249,7 @@ namespace SunlightSensor {
     }
 
     /**
-     * Sichtbares Licht auslesen.
+     * Returns the current visible light reading.
      */
     //% group="Sunlight Sensor"
     //% block="light intensity"
@@ -263,7 +263,7 @@ namespace SunlightSensor {
     }
 
     /**
-     * Infrarotlicht auslesen.
+     * Returns the current infrared reading.
      */
     //% group="Sunlight Sensor"
     //% block="infrared"
@@ -277,8 +277,8 @@ namespace SunlightSensor {
     }
 
     /**
-     * UV-Index auslesen.
-     * SI1145: direkter Hardware-Wert. SI1151: berechnet aus IR + Visible.
+     * Returns the UV index. Directly measured on SI1145,
+     * calculated from IR and visible channels on SI1151.
      */
     //% group="Sunlight Sensor"
     //% block="UV index"
