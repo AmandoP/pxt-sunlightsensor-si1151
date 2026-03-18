@@ -4,11 +4,17 @@
     "dependencies": {
         "core": "*"
     },
+    "simulator": {
+        "parts": true,
+        "partsAspectRatio": 0.69
+    },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "icon.png",
+        "sim/state.ts",
+        "sim/visuals.ts",
         "_locales/de/SunlightSensor-strings.json",
         "_locales/de/SunlightSensor-jsdoc-strings.json"
     ],

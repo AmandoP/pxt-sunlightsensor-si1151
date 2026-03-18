@@ -21,6 +21,9 @@ namespace SunlightSensor {
     // Welcher Sensor wurde initialisiert?
     let _activeSensor: SensorVersion = SensorVersion.SI1151;
 
+    // Simulierter Wert für sichtbares Licht (wird im Simulator verwendet)
+    let _simVisible: number = 500;
+
 
     // ============================================================
     // SI1145 – Interne Implementierung
@@ -255,11 +258,28 @@ namespace SunlightSensor {
     //% block="light intensity"
     //% weight=80
     export function getHalfWord_Visible(): number {
+        // Im Simulator: Wert aus sim/state.ts zurückgeben
+        if (control.isSimulator()) {
+            return _simVisible;
+        }
         if (_activeSensor === SensorVersion.SI1145) {
             return si45_getUInt16LE(0x22);
         } else {
             return Math.round(si51_readVisible());
         }
+    }
+
+    /**
+     * Set the simulated visible light value (simulator only).
+     * Called automatically by the simulator slider.
+     */
+    //% group="Simulation"
+    //% block="set simulated light intensity to %value"
+    //% value.min=0 value.max=65535 value.defl=500
+    //% weight=10
+    //% advanced=true
+    export function setSimulatedVisible(value: number): void {
+        _simVisible = value;
     }
 
     /**
