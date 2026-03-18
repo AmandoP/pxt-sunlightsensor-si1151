@@ -9,10 +9,10 @@
 
 // Sensor-Versionsauswahl – erscheint als Dropdown im Init-Block
 enum SensorVersion {
-    //% block="SI1145 (V1)"
-    SI1145 = 0,
     //% block="SI1151 (V2)"
-    SI1151 = 1
+    SI1151 = 0,
+    //% block="SI1145 (V1)"
+    SI1145 = 1
 }
 
 //% color=#F7B731 icon="\uf185" block="Sonnenlichtsensor"

@@ -11,7 +11,6 @@
         "icon.png",
         "_locales/en/SunlightSensor-strings.json",
         "_locales/en/SunlightSensor-jsdoc-strings.json"
-
     ],
     "testFiles": [
         "test.ts"
