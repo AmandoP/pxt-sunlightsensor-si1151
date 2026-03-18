@@ -9,7 +9,6 @@
         "main.ts",
         "README.md",
         "icon.png",
-        "test.ts",
         "_locales/de/SunlightSensor-strings.json",
         "_locales/de/SunlightSensor-jsdoc-strings.json"
     ],
