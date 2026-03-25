@@ -1,6 +1,6 @@
 {
     "name": "pxt-sunlightsensor-si1151",
-    "description": "",
+    "description": "translated",
     "dependencies": {
         "core": "*"
     },
