@@ -1,9 +1,6 @@
-# Sunlight sensor SI1151 extension for Makecode 
+# MakeCode Erweiterung für den Sonnenlichtsensor 
 
-This is a beta. The UV-Index values still seem to high.
-
-
-> Diese Seite bei [https://jasperp92.github.io/pxt-sunlightsensor-si1151/](https://jasperp92.github.io/pxt-sunlightsensor-si1151/) öffnen
+> Diese Seite bei [https://calliope-edu.github.io/pxt-sunlightsensor-si1151/](https://calliope-edu.github.io/pxt-sunlightsensor-si1151/) öffnen
 
 ## Als Erweiterung verwenden
 
@@ -12,22 +9,15 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **https://github.com/jasperp92/pxt-sunlightsensor-si1151** suchen und importieren
+* nach **https://github.com/calliope-edu/pxt-sunlightsensor-si1151** suchen und importieren
 
-## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/jasperp92/pxt-sunlightsensor-si1151/workflows/MakeCode/badge.svg)
+## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/calliope-edu/pxt-sunlightsensor-si1151/workflows/MakeCode/badge.svg)
 
 Um dieses Repository in MakeCode zu bearbeiten.
 
 * öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
 * klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/jasperp92/pxt-sunlightsensor-si1151** ein und klicke auf Importieren
-
-## Blockvorschau
-
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
-
-![Eine gerenderte Ansicht der Blöcke](https://github.com/jasperp92/pxt-sunlightsensor-si1151/raw/master/.github/makecode/blocks.png)
+* füge **https://github.com/calliope-edu/pxt-sunlightsensor-si1151** ein und klicke auf Importieren
 
 #### Metadaten (verwendet für Suche, Rendering)
 

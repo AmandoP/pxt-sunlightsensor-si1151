@@ -2,9 +2,6 @@
 // Grove Sunlight Sensor – MakeCode PXT Extension
 // Unterstützt: SI1145 (V1) und SI1151 (V2)
 //
-// Namespace umbenannt zu SunlightSensor (neutral, beide Versionen).
-// Bestehende MakeCode-Projekte müssen SI1151.xxx → SunlightSensor.xxx
-// anpassen. Übersetzungsdateien entsprechend aktualisieren.
 // ============================================================
 
 // Sensor-Versionsauswahl – erscheint als Dropdown im Init-Block
@@ -18,7 +15,7 @@ enum SensorVersion {
 //% color=#F7B731 icon="\uf185" block="Sunlight Sensor"
 namespace SunlightSensor {
 
-    // Welcher Sensor wurde initialisiert?
+    // Sensor Initialisierungs
     let _activeSensor: SensorVersion = SensorVersion.SI1151;
 
 

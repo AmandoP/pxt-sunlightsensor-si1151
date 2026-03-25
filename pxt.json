@@ -1,6 +1,6 @@
 {
-    "name": "pxt-sunlightsensor-si1151",
-    "description": "translated",
+    "name": "Sonnenlichtsensor",
+    "description": "Erweiterung für Sonnenlichtsensor (SI1145 & SI1151)",
     "dependencies": {
         "core": "*"
     },
@@ -13,8 +13,10 @@
         "main.ts",
         "README.md",
         "icon.png",
-        "_locales/de/SunlightSensor-strings.json",
-        "_locales/de/SunlightSensor-jsdoc-strings.json"
+        "_locales/de/pxt-sunlightsensor-strings.json",
+        "_locales/de/pxt-sunlightsensor-jsdoc-strings.json",
+        "_locales/en/pxt-sunlightsensor-strings.json",
+        "_locales/en/pxt-sunlightsensor-strings.json"
     ],
     "testFiles": [
         "test.ts"
